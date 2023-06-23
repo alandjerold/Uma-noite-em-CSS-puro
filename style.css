@@ -14,41 +14,19 @@ body,html{
 }
 .cabeçaposte{
 
-    width: 0px;
+    width: 10px;
     height: 0px;
 
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 15px solid rgb(0, 0, 0);
-    margin-top: -325px;
-    margin-left: -51px;
-    rotate: 90deg;
-    border-bottom-left-radius: 30px;
+    margin-top: -314px;
+    margin-left: -43px;
+    rotate: 180deg;
+    border-radius: 10px;
 
 }
-.cabeçaposte1{
-    width: 0px;
-    height: 0px;
-    border-bottom: 15px solid rgb(0, 0, 0);
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
 
-
-    margin-top: -325px;
-    margin-left: -4px;
-    rotate: 90deg;
-z-index: 2;
-}
-.cabeçaposte2{
-    width:12px;
-    height: 35px;
-    background-color:rgb(0, 0, 0);
-
-    margin-top: -319px;
-    margin-left: -34px;
-
-
-}
 
 
 
@@ -63,6 +41,7 @@ z-index: 3;
 
 }
 
+
 .movepescoço{
     display: flex;
     justify-content: center;
@@ -74,7 +53,7 @@ z-index: 3;
 
     background-color: transparent;
     width: 100px;
-    height: 140px;
+    height: 139px;
     margin-top:-225px ;
     margin-left: 2px;
     transform: rotate(50deg);
@@ -101,4 +80,54 @@ z-index: 3;
     height: 38px;
     margin-top:-328px ;
     margin-left: -130px;
+}
+.pé{
+    width: 30px;
+    height: 70px;
+    background-color: aliceblue;
+    margin-left: -21px;
+    margin-top: 250px;
+    z-index: 3;
+}
+.abaixodopé{
+    width: 29px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid transparent;
+    border-radius: 0px;
+    rotate: 180deg;
+    margin-left: -39px;
+    margin-top: 310px;
+    z-index: 3;
+}
+.acimadopé{
+    width: 31px;
+    height: 0px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid blue;
+    border-bottom: 10px solid transparent;
+    border-radius: 0px;
+    rotate: 180deg;
+    margin-left: -65px;
+    margin-top: 166px;
+    z-index: 3;
+
+}
+.acimadopé2{
+    width: 31px;
+    height: 0px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid rgb(87, 87, 214);
+    border-bottom: 10px solid transparent;
+    border-radius: 0px;
+    rotate: 180deg;
+    margin-left: -61px;
+    margin-top: 196px;
+    z-index: 3;
+    rotate: 0deg;
+
 }

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body,html{
+    width: 99%;
+    height: 99%;
+    background-color: rgb(26, 26, 41);
+    position: relative;
+}
+.cabeçaposte{
+    top: 50%;
+    left: 50%;
+    transform: translate(20px,164px);
+    z-index: 3;
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(0, 0, 0);
+
+    rotate: 180deg;
+    border-radius: 10px;
+
+}
+
+.corpo{
+    background-color: rgb(0, 0, 0);
+    width: 15px;
+    height: 300px;
+    position: absolute;
+
+    z-index: 1;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+
+
+   }
+   .pescoçoC{
+
+    background-color: transparent;
+    width: 80px;
+    height: 150px;
+   rotate: 39deg;
+
+    z-index: 1;
+    border-radius: 50%;
+    border-top-left-radius: 73px;
+    border-top-right-radius: 15px;
+    border: 13px solid rgb(0, 0, 0);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80px,-113px);
+    position: absolute;
+}
+.pescoçoR{
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 13px;
+
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(5px,-122px);
+}
+.ferromeio{
+    width: 9px;
+    background-color: black;
+    height: 42px;
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(20px,-120px);
+}
+.pé{
+    width: 30px;
+    height: 70px;
+    background-color: rgb(87, 102, 116);
+    top: 50%;
+    left: 50%;
+    transform: translate(-15px,80px);
+    z-index: 3;
+    position: absolute;
+}
+.abaixodopé{
+    width: 30px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid rgb(68, 68, 92);
+    border-bottom: 10px solid transparent;
+
+    rotate: 180deg;
+    top: 50%;
+    left: 50%;
+    transform: translate(25px,-131px);
+    border-radius:10px;
+    position: absolute;
+    z-index: 3;
+}
