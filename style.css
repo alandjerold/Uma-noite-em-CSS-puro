@@ -12,23 +12,93 @@ body,html{
         margin: 0px;
         padding: 0px;
 }
+.cabeçaposte{
+
+    width: 0px;
+    height: 0px;
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(0, 0, 0);
+    margin-top: -325px;
+    margin-left: -51px;
+    rotate: 90deg;
+    border-bottom-left-radius: 30px;
+
+}
+.cabeçaposte1{
+    width: 0px;
+    height: 0px;
+    border-bottom: 15px solid rgb(0, 0, 0);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+
+
+    margin-top: -325px;
+    margin-left: -4px;
+    rotate: 90deg;
+z-index: 2;
+}
+.cabeçaposte2{
+    width:12px;
+    height: 35px;
+    background-color:rgb(0, 0, 0);
+
+    margin-top: -319px;
+    margin-left: -34px;
+
+
+}
+
+
+
 .corpo{
  background-color: rgb(0, 0, 0);
- width: 50px;
- height: 400px;
- display: flex;
-z-index: 2;
+ width: 15px;
+ height: 300px;
+
+z-index: 3;
 
 
 
 }
-.pescoço{
+
+.movepescoço{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+
+}
+.pescoçoC{
+
+    background-color: transparent;
+    width: 100px;
+    height: 140px;
+    margin-top:-225px ;
+    margin-left: 2px;
+    transform: rotate(50deg);
+    z-index: 1;
+    border-radius: 40%;
+    border-top-left-radius: 68px;
+    border: 13px solid rgb(0, 0, 0);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.pescoçoR{
     background-color: rgb(0, 0, 0);
-    width: 20px;
-    height: 80px;
-    margin-top:-403px ;
-    margin-left: 23px;
-    transform: rotate(70deg);
+    width: 150px;
+    height: 13px;
+    margin-top:-358px ;
+    margin-left: -140px;
     z-index: 1;
 }
 
+.ferromeio{
+    width: 9px;
+    background-color: black;
+    height: 38px;
+    margin-top:-328px ;
+    margin-left: -130px;
+}
